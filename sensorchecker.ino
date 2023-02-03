@@ -34,7 +34,7 @@ constexpr uint8_t analog_pins[4] = {
 }
 
 void setup() {
-  
+  Serial.begin(9600);
 
 }
 
